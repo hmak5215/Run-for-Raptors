@@ -1,0 +1,9 @@
+@media only screen and (max-width: 550px) {
+	#flex-box-wrapper {
+		flex-flow: wrap;
+	}
+
+	#join-panel-description img {
+		display: none;
+	}
+}

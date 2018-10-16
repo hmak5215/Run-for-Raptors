@@ -1,0 +1,52 @@
+#sponsors {
+	margin: 10px 20px;
+}
+
+#card-container {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+
+#card-container .card {
+	background-color: #333;
+	padding: 10px;
+	margin: 5px;
+	width: 300px;
+}
+
+#card-container .card .card-title {
+	text-align: center;
+	display: block;
+	font-size: 26px;
+	color: white;
+}
+
+#card-container .card img {
+	height: 20vh;
+	width: 280px;
+	display: block;
+}
+
+#card-container .card a {
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: #333;
+	background-color: #ccc;
+	padding: 10px;
+
+	-webkit-transition: background-color .3s, color .3s;
+	-moz-transition: background-color .3s, color .3s;
+	-o-transition: background-color .3s, color .3s;
+	transition: background-color .3s, color .3s;
+}
+
+#card-container .card a:hover {
+	color: white;
+	background-color: #999;
+}
+
+br {
+	font-size: 26px;
+}

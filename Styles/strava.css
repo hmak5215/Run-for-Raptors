@@ -1,0 +1,83 @@
+#join-panel {
+	margin: 10px 20px;
+}
+
+#join-panel-description {
+	background-color: #ccc;
+	padding: 10px 20px;
+	font-size: 18px;
+	display: flex;
+	text-align: center;
+}
+
+#join-panel-description .join-text-wrapper {
+	float: left;
+}
+
+#join-panel-description a {
+	color: white;
+	background-color: #fc4c02;
+	text-decoration: none;
+	padding: 10px 40px;
+	display: inline-block;
+	font-size: 20px;
+}
+
+#join-panel-description img {
+	float: right;
+	width: 50%;
+	height: 50%;
+}
+
+#cards {
+	background-color: #333;
+	padding: 10px;
+}
+
+#flex-box-wrapper {
+	display: flex;
+}
+
+.card-base {
+	width: 100%;
+	background-color: #595959;
+	display: inline-block;
+	margin: 7px;
+}
+
+.card-base img {
+	width: 100%;
+}
+
+.card-base span {
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 26px;
+}
+
+.card-base p {
+	padding: 0 10px 0 10px;
+	color: white;
+	font-size: 20px;
+}
+
+#strava-footer {
+	background-color: #ccc;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+#strava-footer p {
+	font-size: 20px;
+}
+
+#strava-footer a {
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	background-color: #fc4c02;
+	display: inline-block;
+	padding: 10px 40px;
+}

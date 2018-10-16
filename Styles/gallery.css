@@ -1,0 +1,8 @@
+#lightgallery {
+	margin: 10px 20px;
+	text-align: center;
+}
+
+#lightgallery a img {
+	object-fit: cover;
+}

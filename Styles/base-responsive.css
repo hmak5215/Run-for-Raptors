@@ -1,0 +1,25 @@
+@media only screen and (max-width: 800px) {
+	#top-pages {
+
+	}
+	
+	#grid-container {
+		justify-content: space-between;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#signin ul li {
+		width: 100px;
+	}
+
+	#brand {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	#signin ul li {
+		width: 75px;
+	}
+}
